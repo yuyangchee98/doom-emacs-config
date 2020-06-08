@@ -92,7 +92,6 @@
 ** [/] Habits
 - [ ] Pocket
 - [ ] Book
-- [ ] Reflect on the day
 ")
 ("j" "Journal" entry (function org-journal-find-location)
 "* %(format-time-string org-journal-time-format) %^{Story name}
