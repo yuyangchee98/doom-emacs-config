@@ -65,7 +65,7 @@
 ;; Org-capture enable
 (server-start)
 ;; Org agenda files
-(setq org-agenda-files (directory-files-recursively "~/Dropbox/org/" "\.org$"))
+(setq org-agenda-files (directory-files-recursively "~/Dropbox/org/" "\.org$" "~/Dropbox/org/daily"))
 ;; Org TODO keywords. Note ! for timestamping
 (after! org
   (setq org-todo-keywords
